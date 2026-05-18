@@ -27,4 +27,11 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
+## License
+This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
+
+## About Me
+
+Hi...! I am Sumudu Prasanna Herath, a Bachelor of Information Technology graduate, and I am seeking to join a data analytics project to develop and share my knowledge and experience. 
+
 
