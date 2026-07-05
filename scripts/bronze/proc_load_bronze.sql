@@ -28,7 +28,7 @@ BEGIN
 		PRINT '****************************';
 
 		PRINT '------------------------------';
-		PRINT '*---Loading From CRM Tables--*';
+		PRINT 'Loading From CRM Tables';
 		PRINT '------------------------------';
 	
 		-- insert crm_cust_info.csv file~~~~~~~~~~~~~~~~~~~
@@ -98,7 +98,7 @@ BEGIN
 		PRINT ''
 
 		PRINT '------------------------------';
-		PRINT '*---Loading From ERP Table---*';
+		PRINT 'Loading From ERP Tables';
 		PRINT '------------------------------';
 
 		-- insert erp_cust_az12.csv file~~~~~~~~~~~~~~~~
