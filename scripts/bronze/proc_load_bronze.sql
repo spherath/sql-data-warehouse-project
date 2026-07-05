@@ -28,7 +28,7 @@ BEGIN
 		PRINT '****************************';
 
 		PRINT '------------------------------';
-		PRINT '*---Loading From CRM Table---*';
+		PRINT '*---Loading From CRM Tables--*';
 		PRINT '------------------------------';
 	
 		-- insert crm_cust_info.csv file~~~~~~~~~~~~~~~~~~~
