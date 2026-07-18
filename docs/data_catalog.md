@@ -30,17 +30,17 @@ The Gold Layer is the business level data representation, structure to support a
 - 	Columns:
 | Column Name | Data Type | Description |
 |-------------|-----------|-------------|
-|product_key| INT | Surrogate key uniquely identifying each product record in the dimension table.
-|product_id| INT	| The unique identifier assigned to the product for internal tracking and referencing.
-|product_number| NVARCHAR(50)	A structured alphanumeric code representing the product, often used for categorization or inventory.
-|product_name| NVARCHAR(50)	Descriptive name of the product, including key details such as type, colour, and size.
-category_id| NVARCHAR(50)	A unique identifier for the product's category, liking to its high-level classification.
-|category| NVARCHAR(50)	The broder classification of the product (Ex. Bike, Components) to group related items.
-|subcategory| NVARCHAR(50)	A more detailed classification of the product within the category, such as product type.
-|maintenance| NVARCHAR(50)	Indicates whether the product requires maintenance (Ex. 'Yes', 'No').
-|cost| INT	The cost or base price of the product, measured in monitory units.
-|product_line| NVARCHAR(50)	The specific product line or series to which the product belongs (Ex. Road, Mountain)
-|start_date| DATE	The date when the product become available for sale or use, stored in
+|product_key| INT | Surrogate key uniquely identifying each product record in the dimension table.|
+|product_id| INT	| The unique identifier assigned to the product for internal tracking and referencing.|
+|product_number| NVARCHAR(50)	| A structured alphanumeric code representing the product, often used for categorization or inventory.|
+|product_name| NVARCHAR(50)	| Descriptive name of the product, including key details such as type, colour, and size.|
+category_id| NVARCHAR(50) |	A unique identifier for the product's category, liking to its high-level classification.|
+|category| NVARCHAR(50) |	The broder classification of the product (Ex. Bike, Components) to group related items.|
+|subcategory| NVARCHAR(50) |	A more detailed classification of the product within the category, such as product type.|
+|maintenance| NVARCHAR(50) |	Indicates whether the product requires maintenance (Ex. 'Yes', 'No').|
+|cost| INT |	The cost or base price of the product, measured in monitory units.|
+|product_line| NVARCHAR(50) |	The specific product line or series to which the product belongs (Ex. Road, Mountain)|
+|start_date| DATE |	The date when the product become available for sale or use, stored in|
 
 
 
