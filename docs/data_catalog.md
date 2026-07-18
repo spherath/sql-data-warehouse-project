@@ -10,7 +10,6 @@ The Gold Layer is the business level data representation, structure to support a
    
 - 	Purpose: Stores customer details enriched with demographic and geographic data.
 - 	Columns:
-
 | Column Name | Data Type | Description |
 |-------------|-----------|-------------|
 | customer_key| INT | Surrogate key uniquely identifying each customer record in the dimension table.|
@@ -23,4 +22,25 @@ The Gold Layer is the business level data representation, structure to support a
 |gender |	NVARCHAR(50) |	The gender of the customer (Ex. 'Male', 'Female', 'n/a').|
 |birthdate |	DATE |	The customer's date of birth, formatted as YYYY-MM-DD (Ex. 1971-10-06).|
 |create_date |	DATE |	The date and time when the customer record was created in the system.|
+----------------------------------------------------------------------------------------------------------------
+
+#### 2.	gold.dim_products
+   
+- 	Purpose: Provides information about the products and their attributes.
+- 	Columns:
+| Column Name | Data Type | Description |
+|-------------|-----------|-------------|
+|product_key| INT | Surrogate key uniquely identifying each product record in the dimension table.
+|product_id| INT	| The unique identifier assigned to the product for internal tracking and referencing.
+|product_number| NVARCHAR(50)	A structured alphanumeric code representing the product, often used for categorization or inventory.
+|product_name| NVARCHAR(50)	Descriptive name of the product, including key details such as type, colour, and size.
+category_id| NVARCHAR(50)	A unique identifier for the product's category, liking to its high-level classification.
+|category| NVARCHAR(50)	The broder classification of the product (Ex. Bike, Components) to group related items.
+|subcategory| NVARCHAR(50)	A more detailed classification of the product within the category, such as product type.
+|maintenance| NVARCHAR(50)	Indicates whether the product requires maintenance (Ex. 'Yes', 'No').
+|cost| INT	The cost or base price of the product, measured in monitory units.
+|product_line| NVARCHAR(50)	The specific product line or series to which the product belongs (Ex. Road, Mountain)
+|start_date| DATE	The date when the product become available for sale or use, stored in
+
+
 
