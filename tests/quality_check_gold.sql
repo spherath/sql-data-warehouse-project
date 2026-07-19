@@ -30,4 +30,17 @@ SELECT
 
   -- Check for unique info.
   SELECT DISTINCT gender FROM gold.dim_customers
+
+
+--===========================================================================
+--Checking ' gold.dim_products'
+--===========================================================================  
+-- view
+SELECT * FROM gold.dim_products
+
+--===========================================================================
+--Checking 'gold.fact_sales'
+--===========================================================================
+-- Check the qiality
+SELECT * FROM gold.fact_sales
  
