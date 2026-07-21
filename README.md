@@ -4,7 +4,7 @@ Welcome to the Data Warehouse and Analytics Project repository!
 
 This project demonstrates a comprehensive data warehouse and analytics project solution, from building a data warehouse to generating actionable insights. Designing as a portfolio project highlights industry best practices in data engineering and analytics.
 
---------------------------------------------------------------------------------
+-------
 
 ## Project Overview
 This project involves:
@@ -21,9 +21,20 @@ This repository is an excellent resource for professionals and students looking 
 - Data Modeling
 - Data Analytics
 
-------------------------------------------------------------------------------------
+-----
 
-## Important Links and Tools
+## 🛠️ Important Links & Tools:
+
+Everything is for Free!
+- **[Datasets](datasets/):** Access to the project dataset (csv files).
+- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
+- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
+- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
+- **[Notion](https://www.notion.com/templates/sql-data-warehouse-project):** Get the Project Template from Notion
+- **[Notion Project Steps](https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269?pvs=4):** Access to All Project Phases and Tasks.
+
+---
 
 
 
