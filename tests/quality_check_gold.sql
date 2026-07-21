@@ -26,7 +26,7 @@ SELECT
     COUNT(*) AS duplicate_count
   FROM gold.dim_customers
   GROUP BY customer_key
-  HAVING COUNT(*) =>1;
+  HAVING COUNT(*) >1;
 
 --===========================================================================
 --Checking 'gold.product_key'
@@ -38,7 +38,7 @@ SELECT
     COUNT(*) AS duplicate_count
   FROM gold.dim_products
   GROUP BY product_key
-  HAVING COUNT(*) =>1;
+  HAVING COUNT(*) >1;
 
 --===========================================================================
 --Checking 'gold.fact_sales'
@@ -47,18 +47,14 @@ SELECT
 
 SELECT * 
 FROM gold.fact_sales f
-LEFT JOIN gold.dim_customer c
+LEFT JOIN gold.dim_customers c
 ON c.customer_key = f. customer_key
 LEFT JOIN gold.dim_products p
 ON p.product_key = f.product_key
-WHERE p.Product_key IS NULL OR c.cutomer_key IS NULL
+WHERE p.Product_key IS NULL OR c.customer_key IS NULL
 
-
-
-  -- Check for unique info.
-  SELECT DISTINCT gender FROM gold.dim_customers
-
-
+-- Check for unique info.
+SELECT DISTINCT gender FROM gold.dim_customers
 
 --===========================================================================
 --Checking ' gold.dim_products'
