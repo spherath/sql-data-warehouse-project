@@ -18,6 +18,13 @@ This repository is an excellent resource for professionals and students looking 
 - Data Architect
 - Data Engineering
 - ETL Pipeline Developer
+- Data Modeling
+- Data Analytics
+
+------------------------------------------------------------------------------------
+
+## Important Links and Tools
+
 
 
 
