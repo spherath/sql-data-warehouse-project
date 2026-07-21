@@ -2,8 +2,22 @@
 
 Welcome to the Data Warehouse and Analytics Project repository!
 
-This project demonstrates a comprehensive data warehouse and analytics project solution, from building a data warehouse to generating actionable insights. Designing as a portfolio project highlights industry best practices in data engineering and analytics. 
-----------------------------------------------------------------------------------------------------------------
+This project demonstrates a comprehensive data warehouse and analytics project solution, from building a data warehouse to generating actionable insights. Designing as a portfolio project highlights industry best practices in data engineering and analytics.
+
+## Project Overview
+This project involves:
+1. Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers
+2. ETL Pipelines: Extracting, Transforming and Loading date from source system into the warehouse.
+3. Data Modelling: Develop Fact and Dimension tables optimise for analytical quarries.
+4.  Analytics and Reporting: Creating SQL-based reports and dashboards for actionable insights.
+
+This repository is an excellent resource for professionals and students looking to showcase expertise in:
+- SQL Development
+- Data Architect
+- Data Engineering
+- ETL Pipeline Developer
+
+
 
 ## Project Requirements
 
