@@ -10,7 +10,7 @@ This project demonstrates a comprehensive data warehouse and analytics project s
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 
 
-![High_Level_Architecture](docs/High_Level_Architecture.png)
+![High_Level_Architecture](E:\My_Accadamy\SQL\SQL_Project01_DataWarehouse with Baraa\Project Initialization/High_Level_Architecture.png)
 
 
 
