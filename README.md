@@ -16,14 +16,16 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 ---
 
-## Project Overview
-This project involves:
-1. Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers
-2. ETL Pipelines: Extracting, Transforming and Loading date from source system into the warehouse.
-3. Data Modelling: Develop Fact and Dimension tables optimise for analytical quarries.
-4.  Analytics and Reporting: Creating SQL-based reports and dashboards for actionable insights.
+## 📖 Project Overview
 
-This repository is an excellent resource for professionals and students looking to showcase expertise in:
+This project involves:
+
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers
+2. **ETL Pipelines**: Extracting, Transforming and Loading date from source system into the warehouse.
+3. **Data Modelling**: Develop Fact and Dimension tables optimise for analytical quarries.
+4. **Analytics and Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
 - SQL Development
 - Data Architect
 - Data Engineering
@@ -44,15 +46,9 @@ Everything is for Free!
 - **[Notion](https://www.notion.com/templates/sql-data-warehouse-project):** Get the Project Template from Notion
 - **[Notion Project Steps](https://app.notion.com/p/Data-Warehouse-Project-360883039b6e80eba74cf3c979c568f2?source=copy_link):** Access to All Project Phases and Tasks.
 
-  
-
-
 ---
 
-
-
-
-## Project Requirements
+## 🚀 Project Requirements
 
 ### Building Data Warehouse (Data Engineering)
 
@@ -75,6 +71,18 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+For more details, refer to [docs/requirements.md](docs/requirements.md).
+
+## 📂 Repository Structure
+```
+│
+├── datasets/  
+
+
+```
+
+
 
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
