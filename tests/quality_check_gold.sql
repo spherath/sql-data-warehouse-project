@@ -52,19 +52,3 @@ ON c.customer_key = f. customer_key
 LEFT JOIN gold.dim_products p
 ON p.product_key = f.product_key
 WHERE p.Product_key IS NULL OR c.customer_key IS NULL
-
--- Check for unique info.
-SELECT DISTINCT gender FROM gold.dim_customers
-
---===========================================================================
---Checking ' gold.dim_products'
---===========================================================================  
--- view
-SELECT * FROM gold.dim_products
-
---===========================================================================
---Checking 'gold.fact_sales'
---===========================================================================
--- Check the quality
-SELECT * FROM gold.fact_sales
- 
