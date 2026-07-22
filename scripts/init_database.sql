@@ -9,11 +9,9 @@ Script Purpose:
 
 WARNING:
   Running this script will drop the entire 'DataWarehouse' database if it exists.
-  All the data in the 'DataWarehouse' database will be permanently deleted. Proceed with caution and 
-  ensure you have proper backups before running this script
+  All the data in the 'DataWarehouse' database will be permanently deleted. 
+  Proceed with caution and ensure you have proper backups before running this script
 */
-
--- Create Database 'DataWarehouse'
 
 USE master;
 GO
@@ -26,17 +24,19 @@ BEGIN
 END;
 GO
 
--- create the DATABASE DataWarehouse
+-- Create the 'DataWarehouse' database
 CREATE DATABASE DataWarehouse;
 GO
 
 USE DataWarehouse;
 GO
 
---Create schemas
+-- Create Schemas
 CREATE SCHEMA bronze;
 GO
+
 CREATE SCHEMA silver;
 GO
+
 CREATE SCHEMA gold;
 GO
