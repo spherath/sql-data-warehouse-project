@@ -13,7 +13,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+3. **Gold Layer**: Houses business-ready data modelled into a star schema required for reporting and analytics.
 
 ---
 
@@ -101,8 +101,6 @@ data-warehouse-project/
 ├── .gitignore                          # Files and directories to be ignored by Git
 └── requirements.txt                    # Dependencies and requirements for the project
 ```
-
-
 
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
